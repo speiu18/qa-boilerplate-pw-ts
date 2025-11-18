@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "QA Automation repo with boilerplate code to get started in minutes with Playwright and Typescript",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:dev": "set ENV=dev && npx playwright test",
+    "test:stage": "set ENV=stage && npx playwright test",
+    "test:prod": "set ENV=prod && npx playwright test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/speiu18/qa-boilerplate-pw-ts.git"
@@ -16,6 +20,7 @@
   "homepage": "https://github.com/speiu18/qa-boilerplate-pw-ts#readme",
   "devDependencies": {
     "@playwright/test": "^1.56.1",
-    "@types/node": "^24.10.1"
+    "@types/node": "^24.10.1",
+    "dotenv": "^17.2.3"
   }
 }
