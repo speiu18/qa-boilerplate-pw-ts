@@ -1,0 +1,21 @@
+{
+  "name": "qa-boilerplate-pw-ts",
+  "version": "1.0.0",
+  "description": "QA Automation repo with boilerplate code to get started in minutes with Playwright and Typescript",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speiu18/qa-boilerplate-pw-ts.git"
+  },
+  "author": "Stefan Peiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/speiu18/qa-boilerplate-pw-ts/issues"
+  },
+  "homepage": "https://github.com/speiu18/qa-boilerplate-pw-ts#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1"
+  }
+}
